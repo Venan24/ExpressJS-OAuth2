@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="author" content="Venan24">
+</head>
+
+<body>
+    <div id="loginButton">
+        <a href="/auth/google">
+            <button>Login</button>
+        </a>
+    </div>
+    <div id="logoutButton">
+        <button onclick="logoutFunction()">Logout</button>
+    </div>
+    <br><hr>
+    
+    <div id="userDataContainer" style="display:none">
+        <div>Google ID: <span id="googleid"></span></div>
+        <div>Full name: <span id="fullname"></span></div>
+        <div>Photo URL: <span id="photourl"></span></div>
+    </div>
+
+<script>
+    var authToken = localStorage.getItem("auth");
+    var userData = localStorage.getItem("user");
+
+    if (userData != null && userData != undefined){
+        userObject = JSON.parse(userData)
+        document.getElementById("googleid").textContent += userObject.sub;
+        document.getElementById("fullname").textContent += userObject.name;
+        document.getElementById("photourl").textContent += userObject.picture;
+        document.getElementById("userDataContainer").style.display = "";
+        document.getElementById("loginButton").style.display = "none";
+    } else {
+        document.getElementById("logoutButton").style.display = "none";
+    }
+
+    function logoutFunction() {
+        localStorage.removeItem("auth");
+        localStorage.removeItem("user");
+        window.location.href = "/";
+    }
+</script>
+
+</body>
+</html>

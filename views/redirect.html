@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting</title>
+    <meta name="author" content="Venan24">
+    <script>
+        var url_string = window.location.href
+        var url = new URL(url_string);
+        var token = url.searchParams.get("token");
+        var user = url.searchParams.get("user");
+        localStorage.setItem("auth", "Bearer " + token);
+        localStorage.setItem("user", user);
+        window.location.href = "/index.html";
+  </script>
+</head>
+
+<body>
+<p>Redirecting</p>
+</body>
+</html>
