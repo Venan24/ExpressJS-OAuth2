@@ -9,11 +9,11 @@ NodeJS with ExpressJS OAuth2 authentication
 
 ## How it works
 
-Start the server ```node index.js```
+* Start the server ```node index.js```
 
-Open http://YOUR-SITE:3000
+* Open http://YOUR-SITE:3000
 
-You can Login with google account and data about logged used will be displayed.
+* You can Login with google account and data about logged used will be displayed.
 
 ## Logic
 
