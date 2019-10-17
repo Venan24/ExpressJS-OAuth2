@@ -2,7 +2,7 @@
 
 NodeJS | ExpressJS | Passport | JWT | OAuth2
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img align='center' src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width=100>  |  <img align='center' src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" width=150> | <img align='center' src="https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png" width=100> | <img align='center' src="https://cdn-images-1.medium.com/max/788/1*0G_7Ab6ZzUMEe-RDJnGjKQ.png" width=150> | <img align='center' src="https://cdn.auth0.com/website/assets/pages/homepage/img/std_cert/oauth2-360e300bd3.svg" width=100>
+<img align='center' src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width=100>  |  <img align='center' src="https://expressjs.com/images/express-facebook-share.png" width=150> | <img align='center' src="https://projecthydro.org/wp-content/uploads/2019/01/passportJS.png" width=100> | <img align='center' src="https://miro.medium.com/max/3200/1*t9d16DIcJg_-dEg0X_qTWg.png" width=150> | <img align='center' src="https://cdn.auth0.com/website/assets/pages/homepage/img/std_cert/oauth2-360e300bd3.svg" width=100>
 
 ## Prerequisites
 
